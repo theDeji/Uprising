@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./img/bg.png');
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.navbar a{
+    margin-right: 10px;
+    color: #ffffff;
+    transition: all 0.5s ease;  
+}
+
+.navbar a:hover{
+    color: #FF4500;
+    /* transform: translate(); */
+    font-size: larger;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.navbar a:enabled{
+    color: #FF4500;
+}
+
+.join{
+    margin: 45px auto;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+
+.join a{
+    margin: auto 100px;
+}
+
+img{
+    width: 90px;
+    height: 50px;
+}
+
+.container-fluid{
+    margin: 5px 5px;
+}
+
+
+#rowOne img{
+    width: 240px;
+    height: 180px;
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    text-align: center;
+}
+
+.row{
+    justify-content: center;
+}
+
+#steps{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px 20px;
+    box-shadow: 0 10px 14px rgba(0, 0, 0, .24);
+    transition: all 0.5s ease; 
+    color: black;
+}
+
+#steps:hover{
+    transform: translateY(-5px);
+}
+
+#stepOne h4{
+    text-align: center;
+}
+
+
+
+.android{
+    background-color: #FF4500;
+    opacity: 85%;
+    box-shadow: 0 5px 14px rgba(2, 2, 2, 1);
+    height: 80px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 55px 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.android:hover{
+    transform: translateY(-5px);
+}
+
+.android p{
+    margin: 10px;
+}
+
+.ios{
+    background-color: #FF4500;
+    opacity: 85%;
+    box-shadow: 0 5px 14px rgba(2, 2, 2, 1);
+    height: 80px;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 55px 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.ios:hover{
+    transform: translateY(-5px);
+}
+
+.ios p{
+    margin: 10px;
+}
+
+/* .foot{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+} */
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        background-image: url('./img/bgs.png');
+        color: black;
+    }
+
+    .join h1{
+        color: #ff4400c5;
+    }    
+    
+    .join{
+        color: white;
+    }
+
+    .join a{
+        margin: auto auto;
+    }
+
+    .navbar a{
+        margin-top: 15px;
+        color: black;
+        transition: all 0.5s ease;
+    }
+    
+    .navbar a:hover{
+        color: #FF4500;
+        font-size: larger;
+        border-radius: 15px;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-color: #FF4500;
+        border-radius: 5px;
+    }
+
+    .navbar-toggler-icon:enabled {
+        outline-style: none !important;
+    }
+    
+    .navbar a:hover{
+        color: #FF4500;
+    }
+    
+    .navbar a:enabled{
+        color: #FF4500;
+    }
+    
+    #steps{
+        /* padding: 10px 20px; */
+        background-color: white;
+        border-radius: 15px;
+        margin: 10px 80px;
+        box-shadow: 0 10px 14px rgba(0, 0, 0, .24);
+        transition: all 0.5s ease; 
+        color: black;
+    }
+
+    .ios{
+        background-color: #FF4500;
+        opacity: 85%;
+        box-shadow: 0 5px 14px rgba(2, 2, 2, 1);
+        height: 80px;
+        display: flex;
+        color: white;
+        width: 70%;
+        align-items: center;
+        margin: 30px 20px;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .ios:hover{
+        transform: translateY(-5px);
+    }
+    
+    .ios p{
+        margin: 10px;
+    }
+
+    .android{
+        background-color: #FF4500;
+        opacity: 85%;
+        box-shadow: 0 5px 14px rgba(2, 2, 2, 1);
+        height: 80px;
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 30px 20px;
+        width: 70%;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .android:hover{
+        transform: translateY(-5px);
+    }
+    
+    .android p{
+        margin: 10px;
+    }
+
+    
+  }
+
+
+  @media only screen and (max-width: 800px) {
+
+    body {
+        background-image: url('./img/bg.png');
+        color: black;
+    }
+
+    .join h1{
+        color: #ff4400c5;
+    }    
+    
+    .join{
+        color: white;
+    }
+
+    .join a{
+        margin: auto auto;
+    }
+
+    .navbar a{
+        margin-top: 15px;
+        color: black;
+        transition: all 0.5s ease;
+    }
+    
+    .navbar a:hover{
+        color: #FF4500;
+        font-size: larger;
+        border-radius: 15px;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-color: #FF4500;
+        border-radius: 5px;
+    }
+
+    .navbar-toggler-icon:enabled {
+        outline-style: none !important;
+    }
+    
+    .navbar a:hover{
+        color: #FF4500;
+    }
+    
+    .navbar a:enabled{
+        color: #FF4500;
+    }
+    
+    #steps{
+        /* padding: 10px 20px; */
+        background-color: white;
+        border-radius: 15px;
+        margin: 10px 80px;
+        box-shadow: 0 10px 14px rgba(0, 0, 0, .24);
+        transition: all 0.5s ease; 
+        color: black;
+    }
+
+    .ios{
+        background-color: #FF4500;
+        opacity: 85%;
+        box-shadow: 0 5px 14px rgba(2, 2, 2, 1);
+        height: 80px;
+        display: flex;
+        color: white;
+        width: 70%;
+        align-items: center;
+        margin: 30px 20px;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .ios:hover{
+        transform: translateY(-5px);
+    }
+    
+    .ios p{
+        margin: 10px;
+    }
+
+    .android{
+        background-color: #FF4500;
+        opacity: 85%;
+        box-shadow: 0 5px 14px rgba(2, 2, 2, 1);
+        height: 80px;
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 30px 20px;
+        width: 70%;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+    }
+    
+    .android:hover{
+        transform: translateY(-5px);
+    }
+    
+    .android p{
+        margin: 10px;
+    }
+
+    
+  }
+
+
+
